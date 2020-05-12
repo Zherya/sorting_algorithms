@@ -12,7 +12,7 @@ int main() {
     sort::isSorted(array, N, false, &sortedPercentage);
     std::cout << "Array is sorted for " << sortedPercentage << "%\n\n";
 
-    sort::quickSort::threeWaySort(array, N);
+    sort::heapSort::sort(array, N);
 
     for (int element: array)
         std::cout << element << ' ';

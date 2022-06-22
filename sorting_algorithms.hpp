@@ -422,7 +422,7 @@ namespace sort {
          *
          * @return Случайное целочисленное значение из диапазона [min, max].
          */
-        static std::size_t randomPivot(std::size_t min, std::size_t max);
+        static unsigned long long randomPivot(unsigned long long min, unsigned long long max);
 
     public:
         /*! @brief Функция, реализующая алгоритм быстрой сортировки
